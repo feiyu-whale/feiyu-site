@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>🎮 小游戏区 · 肥鱼</title>
+<!-- v1.0.0-未审游戏总入口 20261110 -->
+<style>
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body {
+    margin:0; min-height:100vh;
+    background:radial-gradient(120% 90% at 50% 0%, #1a2c3a 0%, #101c26 55%, #080d12 100%);
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    color:#cfe5f5; padding:22px 14px 48px; user-select:none;
+  }
+  .back { display:inline-block; text-decoration:none; color:#7fa8c4; font-size:11px; margin-bottom:6px;
+    padding:6px 12px; border:1px solid #2e4a5e; border-radius:20px; }
+  .back:active { background:#1a2a36; }
+  h1 { font-size:15px; text-align:center; color:#8fd0ff; font-weight:700; letter-spacing:2px; margin:4px 0 6px; }
+  .sub { text-align:center; color:#6b8fa8; font-size:11px; margin-bottom:14px; line-height:1.7; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:8px; max-width:720px; margin:0 auto; }
+  a.game {
+    display:block; text-decoration:none; color:inherit;
+    background:linear-gradient(160deg,#18313f,#0f1e28);
+    border:1px solid #2e5f7e; border-radius:14px; padding:14px 12px; transition:.18s;
+    box-shadow:0 4px 20px rgba(20,60,90,.3);
+  }
+  a.game:active { transform:scale(.96); background:#1e3d4e; }
+  a.game .icon { font-size:22px; display:block; margin-bottom:8px; }
+  a.game .name { font-size:13px; font-weight:700; color:#9fd8ff; }
+  a.game .desc { font-size:10.5px; color:#7fa8c4; margin-top:4px; line-height:1.5; }
+  .notice { max-width:720px; margin:18px auto 0; padding:10px 12px; border-radius:10px;
+    background:rgba(120,80,20,.12); border:1px dashed #6a4e28; color:#c9a86b; font-size:11px; line-height:1.7; }
+  .foot { text-align:center; color:#3e5468; font-size:10px; margin-top:26px; line-height:1.9; }
+</style>
+</head>
+<body>
+  <a class="back" href="../">← 回游戏厅</a>
+  <h1>🎮 小 游 戏 区</h1>
+  <div class="sub">十个小游戏 · 都是单文件零依赖 · 点开就能玩</div>
+
+  <div class="grid">
+    <a class="game" href="box-pusher/">
+      <span class="icon">📦</span><span class="name">推箱工坊</span>
+      <span class="desc">把箱子推到目标点，越往后越绕</span>
+    </a>
+    <a class="game" href="bubble-shooter/">
+      <span class="icon">🫧</span><span class="name">泡泡龙</span>
+      <span class="desc">三消射击，打掉成排的泡泡</span>
+    </a>
+    <a class="game" href="deepsea-snake/">
+      <span class="icon">🐍</span><span class="name">深海贪吃蛇</span>
+      <span class="desc">经典贪吃蛇，深海版</span>
+    </a>
+    <a class="game" href="deepsea-tower-defense/">
+      <span class="icon">🏰</span><span class="name">深海塔防</span>
+      <span class="desc">布塔防守，挡住来袭的怪</span>
+    </a>
+    <a class="game" href="defense-line/">
+      <span class="icon">🛡️</span><span class="name">防线守卫</span>
+      <span class="desc">守住最后一条防线</span>
+    </a>
+    <a class="game" href="krill-storm/">
+      <span class="icon">🦐</span><span class="name">磷虾风暴</span>
+      <span class="desc">躲避密集弹幕，越久越难</span>
+    </a>
+    <a class="game" href="maze-escape/">
+      <span class="icon">🌀</span><span class="name">深海迷宫</span>
+      <span class="desc">走出迷宫，别绕晕了</span>
+    </a>
+    <a class="game" href="puzzle-slide/">
+      <span class="icon">🔢</span><span class="name">数字华容道</span>
+      <span class="desc">滑动数字还原顺序</span>
+    </a>
+    <a class="game" href="rhythm-tap/">
+      <span class="icon">🎵</span><span class="name">节奏敲击</span>
+      <span class="desc">跟着节拍点，考验手速</span>
+    </a>
+    <a class="game" href="whale-run/">
+      <span class="icon">🐳</span><span class="name">鲸落跑酷</span>
+      <span class="desc">一路向前跑，跳过障碍</span>
+    </a>
+  </div>
+
+  <div class="notice">
+    这批游戏来自「未审查」目录 —— 意思是能跑通、但没经过完整质量检查，
+    可能会有小 bug 或难度没调好。玩到问题可以跟我说。
+  </div>
+
+  <div class="foot">🐳 大肥鱼出品<br><span style="font-size:10px">v1.0.0-未审游戏总入口 20261110</span></div>
+</body>
+</html>
